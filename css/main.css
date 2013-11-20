@@ -1,0 +1,95 @@
+html {
+    font-size: 0.875em;
+	line-height: 1.375;
+    font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #222;
+}
+
+body {
+    text-align: center;
+    margin-top: 2.357143em;
+}
+
+a {
+	color: #fb2c0a;
+}
+
+a:hover {
+	color: #b71307;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.no-rgba a:active {
+	background-color: #fee9e6;
+}
+
+.rgba a:active {
+	background-color: rgba(251, 44, 10, 0.1);
+}
+
+.logo {
+    margin: 0 0 2.357143em;
+}
+
+.address {
+	margin: 0 0 0.357143em;
+}
+
+.contacts {
+    margin: 0 0 2.642857em;
+}
+
+.contacts__row {
+	display: inline-block;
+	margin-bottom: 0.357143em;
+}
+
+.no-touch .telephone {
+	color: #222;
+	text-decoration: none;
+	cursor: text;
+}
+
+.map {
+	height: 450px;
+}
+
+.js .map__link {
+	display: none;
+}
+
+/* h5bp helpers */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
