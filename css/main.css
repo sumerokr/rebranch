@@ -54,7 +54,9 @@ img {
 }
 
 .map {
+	max-width: 70em;
 	height: 350px;
+	margin: 0 auto;
 }
 
 .js .map__link {
