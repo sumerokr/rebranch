@@ -1,8 +1,10 @@
 html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
     font-size: 0.875em;
-	line-height: 1.375;
+    line-height: 1.375;
     font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color: #222;
+    color: #222;
 }
 
 body {
@@ -11,15 +13,21 @@ body {
 }
 
 a {
-	color: #fb2c0a;
+    background: transparent;
+    color: #fb2c0a;
+}
+
+a:focus {
+    outline: thin dotted;
 }
 
 a:hover {
-	color: #b71307;
+    color: #b71307;
+    outline: 0;
 }
 
-img {
-    vertical-align: middle;
+a:active {
+    outline: 0;
 }
 
 .no-rgba a:active {
@@ -28,6 +36,11 @@ img {
 
 .rgba a:active {
 	background-color: rgba(251, 44, 10, 0.1);
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
 }
 
 .logo {
