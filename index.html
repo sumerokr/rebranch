@@ -8,6 +8,20 @@
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="css/main.css" />
+        <script>
+            testTouch = function() {
+                if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            };
+            if (testTouch()) {
+                var root = document.getElementsByTagName('html')[0];
+                root.className = root.className + ' touch';
+            }
+        </script>
     </head>
     <body>
 		<div itemscope itemtype="http://www.schema.org/Organization">
