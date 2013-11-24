@@ -30,12 +30,9 @@ a:active {
     outline: 0;
 }
 
-.no-rgba a:active {
-	background-color: #fee9e6;
-}
-
-.rgba a:active {
-	background-color: rgba(251, 44, 10, 0.1);
+a:active {
+    background-color: #fee9e6;
+    background-color: rgba(251, 44, 10, 0.1);
 }
 
 img {
@@ -48,7 +45,7 @@ img {
 }
 
 .address {
-	margin: 0 0 0.357143em;
+    margin: 0 0 0.357143em;
 }
 
 .contacts {
@@ -56,27 +53,25 @@ img {
 }
 
 .contacts__row {
-	display: inline-block;
-	margin-bottom: 0.357143em;
+    display: inline-block;
+    margin-bottom: 0.357143em;
 }
 
 .no-touch .telephone {
-	color: #222;
-	text-decoration: none;
-	cursor: text;
+    color: #222;
+    text-decoration: none;
+    cursor: text;
 }
 
 .map {
-	max-width: 70em;
-	height: 350px;
-	margin: 0 auto;
+    max-width: 70em;
+    height: 350px;
+    margin: 0 auto;
 }
 
 .js .map__link {
-	display: none;
+    display: none;
 }
-
-/* h5bp helpers */
 
 .visuallyhidden {
     border: 0;
@@ -87,24 +82,4 @@ img {
     padding: 0;
     position: absolute;
     width: 1px;
-}
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
 }
